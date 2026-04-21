@@ -1,0 +1,10 @@
+{
+  "pipeline_order": [
+    "weather",
+    "news",
+    "crypto"
+  ],
+  "weather_api": "https://api.open-meteo.com/v1/forecast?latitude=28.61&longitude=77.23&current_weather=true",
+  "news_api": "https://newsapi.org/v2/top-headlines?country=us&apiKey=YOUR_NEWS_API_KEY",
+  "crypto_api": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd"
+}
